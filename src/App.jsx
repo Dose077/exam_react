@@ -10,8 +10,8 @@ import Support from './pages/Support';
 import Subscription from './pages/Subscription';
 import NotFound from './pages/NotFound';
 import Banner from './components/Banner';
-import Movies_Shows from './pages/Movies_Shows';
 import Shows from './pages/Shows';
+import Shows_Movies from './pages/Shows_Movies';
 import Movies from './pages/Movies';
 
 
@@ -33,7 +33,7 @@ const App = () => {
               <NavLink to='/'>Home</NavLink>
             </li>
                <li className=' text-[#BFBFBF] text-base font-normal'>
-              <NavLink to='/movies_shows'>Movies & Shows</NavLink>
+              <NavLink to='/shows_movies'>Movies & Shows</NavLink>
             </li>
               <li className=' text-[#BFBFBF] text-base font-normal'>
               <NavLink to='/support'>Support</NavLink>
@@ -55,11 +55,12 @@ const App = () => {
       </div>
 <Routes>
   <Route path='/' element={<Home/>}/>
-   <Route path='/Movies_Shows' element={<Movies_Shows/>}/>
+   <Route path='/Movies_Shows' element={<Shows_Movies/>}/>
     <Route path='/support' element={<Support/>}/>
      <Route path='/subscription' element={<Subscription/>}/>
      <Route path='/shows' element={<Shows/>}/>
      <Route path='/movies' element={<Movies/>}/>
+     <Route path='/shows_movies' element={<Shows_Movies/>}/>
        <Route path='*' element={<NotFound/>}/>
 </Routes>
 <Banner/>
