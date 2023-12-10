@@ -32,11 +32,11 @@ const Search = () => {
           <div className="flex items-center gap-2">
           <input type="search" 
             placeholder="searach movie..."
-            className="text-white w-[1380px] border bg-inherit  px-3 py-2"
+            className="text-white w-[1380px] border bg-inherit mt-[80px]  px-3 py-2"
             onChange={handleSearch}
             value={searchText}
             />
-           <span ><img src={search} alt="" /></span>
+           <span ><img className="mt-[80px] " src={search} alt="" /></span>
           </div>
 
     </div>
