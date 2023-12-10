@@ -9,11 +9,14 @@ import vr from '../assets/vr.svg'
 import { AccordionCustomIcon } from '../components/Accordion'
 import Plan from '../components/Plan'
 import MovieList from '../components/MovieList'
+import Search from '../components/Search'
 const HomeMain = () => {
   return (
     <main>
     <section>    
+
     <div className="container mx-auto px-5">
+      <Search/>
       <div className='flex items-center justify-between mt-[200px]'>
       <div>
         <h2 className=' text-3xl text-white'>Explore our wide variety of categories</h2>

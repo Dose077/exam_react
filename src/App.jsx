@@ -41,9 +41,7 @@ const App = () => {
               <li className=' text-[#BFBFBF] text-base font-normal'>
               <NavLink to='/subscription'>Subscription</NavLink>
             </li>
-            
           </ul>
-      
         </div>
         <div>
 <button className='bg-[#141414]'><img src={search} alt="icon" /></button>
