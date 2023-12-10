@@ -10,6 +10,7 @@ import Releases2 from '../components/Shows/Releases2';
 import Watch2 from '../components/Shows/Watch2';
 import Backgraund from '../components/Homee/Backgraund';
 import PopularShow from '../components/Shows/PopularShow';
+import Search from '../components/Search';
 
 
 const Shows_Movies = () => {
@@ -19,6 +20,7 @@ const Shows_Movies = () => {
     <Backgraund/>
   </div>
  <div className='container mx-auto px-5'>
+  <Search/>
  <div className='border mt-[180px]'>
   <Genre/>
   <Popular/>

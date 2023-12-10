@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 import right from '../assets/right.svg'
 const MovieList = () => {
-
+  
     const [data,setData] = useState([])
     useEffect(()=>{
         axios.get('https://api.themoviedb.org/3/movie/popular', {
