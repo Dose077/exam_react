@@ -23,7 +23,7 @@ const MovieList = () => {
 
       <>    
       <div className="container mx-auto px-5">
-        <div className="flex justify-between items-center gap-8 mt-80">
+        <div className="flex justify-between items-center gap-8 mt-[80px]">
          {data.map(movie => (
         <div key={movie.id} className="p-8 bg-gray-900 rounded-xl shadow ">
             <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${movie.poster_path}`} alt="" />       
